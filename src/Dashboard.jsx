@@ -1,6 +1,7 @@
 import React from "react";
 import "./Dashboard.css";
 import Trend from "./Trend.jsx";
+import { Returns } from './components/Returns'
 
 const Dashboard = () => {
   return (
@@ -12,4 +13,5 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
