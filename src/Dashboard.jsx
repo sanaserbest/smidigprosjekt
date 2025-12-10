@@ -5,9 +5,11 @@ import Trend from "./Trend.jsx";
 const Dashboard = () => {
   return (
     <div className="dashboard">
-      <Trend />
+      <Trend />  
+      <Returns /> 
     </div>
   );
 };
 
 export default Dashboard;
+
