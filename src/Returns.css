@@ -1,1 +1,77 @@
+/* --- returandel --- */
 
+.return-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.02); 
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+
+  grid-column: span 2;
+}
+
+.return-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.4);
+}
+
+.return-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12
+;
+}
+
+.return-title {
+  font-size: 30px;
+  font-weight: 500;
+  opacity: 0,9;
+}
+
+.return-refresh {
+  font-size: 25px;
+  opacity: 0.6;
+}
+
+.return-main {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+  margin-bottom: 4px;
+}
+
+.return-value {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.return-change {
+  display: inline-flex;
+  align-items: center;
+  gap:3px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 210px;
+}
+
+.return-change.negative {
+  color: #22c55e; 
+}
+
+.return-change.positive {
+  color: #ef4444; 
+}
+
+.return-arrow {
+  font-size: 20px;
+}
+
+.return-subtitle {
+  font-size: 20px;
+  opacity: 0.7;
+}
